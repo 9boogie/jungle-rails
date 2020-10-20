@@ -5,7 +5,6 @@ RSpec.describe Product, type: :model do
 
     before do
       @category = Category.create!(name: "Furniture")
-        #@product = Product.create!(name: nil, price: 1300.00, quantity: 20, category: @category)
     end
 
     it 'validates presence with name' do
@@ -32,10 +31,10 @@ RSpec.describe Product, type: :model do
       expect(product.errors.full_messages).to include("Category can't be blank")
     end
 
-    it 'validates presence with category' do
+    it 'validates presence with all fields' do
       product = Product.new(name: 'cozy bed', price: 1300.00, quantity: 23, category: @category)
       product.valid?
-      expect(product.errors.full_messages).to_not include("can't be blank")
+      expect(product.errors.full_messages).to be_empty
     end
   end
 end
