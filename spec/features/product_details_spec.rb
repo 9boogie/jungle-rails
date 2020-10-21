@@ -28,6 +28,6 @@ RSpec.feature "Visitor navigate and clicking show the product detail", type: :fe
     expect(page).to have_content('Price')
 
 
-    save_screenshot
+    #save_screenshot
   end
 end
