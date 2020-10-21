@@ -1,6 +1,18 @@
 # Jungle
 
-A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
+A mini e-commerce application built with Rails 4.2 for practice of Ruby, the Rails framwork and tests such as rspec, Capybara, and Poltergeist. 
+
+Jungle app with following behaviours:
+  - User can sign up new accout/sign in from any page
+  - User can add items on the cart and order pages contain information about the items, and final amount of order
+  - If the cart is empty, display a friendly message about cart emptiness and link to the home page
+  - Sold out Badge is displayed when quantity of itme becomes zero. 
+  - Admin user authentication and Admin user can create category and products. 
+
+## Final Product
+!["Screenshot of Main Page(DeskTop Ver)"](https://github.com/9boogie/scheduler/blob/master/docs/Main_Page.png)
+!["Screenshot of Booking Interview"](https://github.com/9boogie/scheduler/blob/master/docs/Booking_Interview.png)
+!["Screenshot of Edit/Delete interview"](https://github.com/9boogie/scheduler/blob/master/docs/Edit_Delete_Interview.png)
 
 
 ## Setup
