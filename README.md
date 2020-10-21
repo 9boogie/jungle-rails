@@ -10,9 +10,9 @@ Jungle app with following behaviours:
   - Admin user authentication and Admin user can create category and products. 
 
 ## Final Product
-!["Screenshot of Main Page(DeskTop Ver)"](https://github.com/9boogie/scheduler/blob/master/docs/Main_Page.png)
-!["Screenshot of Booking Interview"](https://github.com/9boogie/scheduler/blob/master/docs/Booking_Interview.png)
-!["Screenshot of Edit/Delete interview"](https://github.com/9boogie/scheduler/blob/master/docs/Edit_Delete_Interview.png)
+!["Screenshot of Main Page"](https://github.com/9boogie/jungle-rails/blob/master/docs/Main%20Page.png)
+!["Screenshot of Order Page"](https://github.com/9boogie/jungle-rails/blob/master/docs/Order%20Page.png)
+!["Screenshot of Admin Page"](https://github.com/9boogie/jungle-rails/blob/master/docs/Admin%20Page.png)
 
 
 ## Setup
