@@ -6,8 +6,8 @@ Jungle app with following behaviours:
   - User can sign up new accout/sign in from any page
   - User can add items on the cart and order pages contain information about the items, and final amount of order
   - If the cart is empty, display a friendly message about cart emptiness and link to the home page
-  - Sold out Badge is displayed when quantity of itme becomes zero. 
-  - Admin user authentication and Admin user can create category and products. 
+  - Sold out Badge is displayed when quantity of item becomes zero. 
+  - User authentication for Admin Page and Admin user can create category and products. 
 
 ## Final Product
 !["Screenshot of Main Page"](https://github.com/9boogie/jungle-rails/blob/master/docs/Main%20Page.png)
